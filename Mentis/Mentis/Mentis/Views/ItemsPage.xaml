@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mentis.Views.ItemsPage"
+             Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <Frame Margin="10" BackgroundColor="LightBlue" HeightRequest="40">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding GoToInformationCommand}"/>
+            </Frame.GestureRecognizers>
+            <Label Text="Information" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+        </Frame>
+        <Frame Margin="10" BackgroundColor="LightSalmon" HeightRequest="40">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding GoToResourcesCommand}"/>
+            </Frame.GestureRecognizers>
+            <Label Text="Resources" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+        </Frame>
+        <Frame Margin="10" BackgroundColor="LightGreen" HeightRequest="40">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding GoToBreathingCommand}"/>
+            </Frame.GestureRecognizers>
+            <Label Text="Breathing Exercises" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+        </Frame>
+    </StackLayout>
+    
+</ContentPage>
