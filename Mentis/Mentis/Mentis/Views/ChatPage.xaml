@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Mentis.Views.ChatPage">
+    <ContentPage.Content>
+        <WebView Source="https://webchat.botframework.com/embed/mentalhealthhack-bot?s=Etjd2uBhy7Q.e59oV_sW4kE7QD0khELSz8Iz9UZ3IYIVGjCuhX5cc20"></WebView>
+    </ContentPage.Content>
+</ContentPage>

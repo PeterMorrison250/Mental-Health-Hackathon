@@ -41,6 +41,14 @@ namespace Mentis.ViewModels
             set => SetProperty(ref goToBreathingCommand, value);
         }
 
+        private ICommand goToChatCommand;
+
+        public ICommand GoToChatCommand
+        {
+            get => goToChatCommand;
+            set => SetProperty(ref goToChatCommand, value);
+        }
+
         public ItemsViewModel(INavigation navigation)
         {
             this.Navigation = navigation;
@@ -51,6 +59,7 @@ namespace Mentis.ViewModels
             GoToInformationCommand = new Command(async () => await ExecuteGoToInformationCommand());
             GoToResourcesCommand = new Command(async () => await ExecuteGoToResourcesCommand());
             GoToBreathingCommand = new Command(async () => await ExecuteGoToBreathingCommand());
+            GoToChatCommand = new Command(async () => await ExecuteGoToChatCommand());
 
             MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
             {
@@ -73,6 +82,11 @@ namespace Mentis.ViewModels
         async Task ExecuteGoToInformationCommand()
         {
             await Navigation.PushAsync(new Views.InformationPage());
+        }
+
+        async Task ExecuteGoToChatCommand()
+        {
+            await Navigation.PushAsync(new Views.ChatPage());
         }
 
         async Task ExecuteLoadItemsCommand()

@@ -42,3 +42,4 @@ C:\Mental-health-hackathon\Mental-Health-Hackathon\Mentis\Mentis\Mentis\bin\Debu
 C:\Mental-health-hackathon\Mental-Health-Hackathon\Mentis\Mentis\Mentis\bin\Debug\netstandard2.0\ref\Mentis.dll
 C:\Mental-health-hackathon\Mental-Health-Hackathon\Mentis\Mentis\Mentis\bin\Debug\netstandard2.0\Mentis.pdb
 C:\Mental-health-hackathon\Mental-Health-Hackathon\Mentis\Mentis\Mentis\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Mental-health-hackathon\Mental-Health-Hackathon\Mentis\Mentis\Mentis\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
