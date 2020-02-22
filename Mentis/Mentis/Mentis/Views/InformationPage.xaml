@@ -4,12 +4,23 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Mentis.Views.InformationPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Information Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="Mentis.Views.InformationPage"
+             Title="{Binding Title}"
+             x:Name="BrowseInformationPage">
+    
+    <StackLayout>
+        <Frame Margin="10" BackgroundColor="Blue" HeightRequest="40">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding GoToDepressionInformationCommand}"/>
+            </Frame.GestureRecognizers>
+            <Label Text="Depression" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+        </Frame>
+        <Frame Margin="10" BackgroundColor="Purple" HeightRequest="40">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding GoToAnxietyInformationCommand}"/>
+            </Frame.GestureRecognizers>
+            <Label Text="Anxiety" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
+        </Frame>
+    </StackLayout>
+
 </ContentPage>

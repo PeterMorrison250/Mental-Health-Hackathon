@@ -1005,24 +1005,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\peter\\.nuget\\packages\\": {},
+    "C:\\Users\\Cameron\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
+      "projectUniqueName": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
       "projectName": "Mentis.iOS",
-      "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
-      "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\obj\\",
+      "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
+      "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
+      "outputPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cameron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1036,8 +1036,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
-              "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj"
+            "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
+              "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj"
             }
           }
         }

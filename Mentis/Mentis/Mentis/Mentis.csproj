@@ -11,10 +11,25 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\DepressionInformationPage.xaml.cs">
+      <DependentUpon>DepressionInformationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AnxietyInformationPage.xaml.cs">
+      <DependentUpon>AnxietyInformationPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\BreathingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\InformationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\DepressionInformationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AnxietyInformationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ResourcesPage.xaml">

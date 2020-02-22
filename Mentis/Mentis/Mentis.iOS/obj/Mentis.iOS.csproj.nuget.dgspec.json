@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj": {}
+    "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj": {
+    "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
+        "projectUniqueName": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
         "projectName": "Mentis.iOS",
-        "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
-        "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.iOS\\obj\\",
+        "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\Mentis.iOS.csproj",
+        "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
+        "outputPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cameron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
-                "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj"
+              "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
+                "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj"
               }
             }
           }
@@ -65,20 +65,21 @@
         }
       }
     },
-    "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
+    "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj",
+        "projectUniqueName": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj",
         "projectName": "Mentis",
-        "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj",
-        "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\obj\\",
+        "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj",
+        "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
+        "outputPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cameron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -128,7 +129,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

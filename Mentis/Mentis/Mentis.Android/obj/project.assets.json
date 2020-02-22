@@ -1911,24 +1911,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\peter\\.nuget\\packages\\": {},
+    "C:\\Users\\Cameron\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.Android\\Mentis.Android.csproj",
+      "projectUniqueName": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.Android\\Mentis.Android.csproj",
       "projectName": "Mentis.Android",
-      "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.Android\\Mentis.Android.csproj",
-      "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis.Android\\obj\\",
+      "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.Android\\Mentis.Android.csproj",
+      "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
+      "outputPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cameron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1942,8 +1942,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
-              "projectPath": "D:\\Dev\\CSharp\\Mentis\\Mentis\\Mentis\\Mentis.csproj"
+            "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj": {
+              "projectPath": "C:\\Mental-health-hackathon\\Mental-Health-Hackathon\\Mentis\\Mentis\\Mentis\\Mentis.csproj"
             }
           }
         }

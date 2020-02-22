@@ -72,7 +72,7 @@ namespace Mentis.ViewModels
 
         async Task ExecuteGoToInformationCommand()
         {
-            await Navigation.PushAsync(new InformationPage());
+            await Navigation.PushAsync(new Views.InformationPage());
         }
 
         async Task ExecuteLoadItemsCommand()

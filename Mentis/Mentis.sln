@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentis.Android", "Mentis\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentis.iOS", "Mentis\Mentis.iOS\Mentis.iOS.csproj", "{F630F329-C8AD-4422-ABBD-9BD0EE60D0B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mentis", "Mentis\Mentis\Mentis.csproj", "{ED8D6882-4B0E-4864-A4C9-12F4ADCF2689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mentis", "Mentis\Mentis\Mentis.csproj", "{ED8D6882-4B0E-4864-A4C9-12F4ADCF2689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
