@@ -8,22 +8,12 @@
              Title="{Binding Title}"
              x:Name="BrowseItemsPage">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
-    </ContentPage.ToolbarItems>
-
     <StackLayout>
         <Frame Margin="10" BackgroundColor="LightBlue" HeightRequest="40">
             <Frame.GestureRecognizers>
                 <TapGestureRecognizer Command="{Binding GoToInformationCommand}"/>
             </Frame.GestureRecognizers>
             <Label Text="Information" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
-        </Frame>
-        <Frame Margin="10" BackgroundColor="LightSalmon" HeightRequest="40">
-            <Frame.GestureRecognizers>
-                <TapGestureRecognizer Command="{Binding GoToResourcesCommand}"/>
-            </Frame.GestureRecognizers>
-            <Label Text="Resources" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" FontSize="20" FontAttributes="Bold"/>
         </Frame>
         <Frame Margin="10" BackgroundColor="LightGreen" HeightRequest="40">
             <Frame.GestureRecognizers>

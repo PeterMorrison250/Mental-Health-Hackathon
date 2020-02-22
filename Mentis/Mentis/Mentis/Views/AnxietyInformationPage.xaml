@@ -6,10 +6,9 @@
              mc:Ignorable="d"
              x:Class="Mentis.Views.AnxietyInformationPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20,35,20,20">
+            <Label Text="What is Anxiety?" TextColor="Red" FontSize="20"/>
+            <Label Text="Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. Everyone has feelings of anxiety at some point in their life. For example, you may feel worried and anxious about sitting an exam, or having a medical test or job interview. During times like these, feeling anxious can be perfectly normal. But some people find it hard to control their worries. Their feelings of anxiety are more constant and can often affect their daily lives. "/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

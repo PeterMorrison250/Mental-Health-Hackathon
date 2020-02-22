@@ -6,12 +6,9 @@
              mc:Ignorable="d"
              x:Class="Mentis.Views.DepressionInformationPage">
     <ContentPage.Content>
-        <StackLayout>
-            <BoxView x:Name="LightCoralBox" BackgroundColor="LightCoral"></BoxView>
-            <BoxView x:Name="LightGreenBox" BackgroundColor="LightGreen"></BoxView>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20,35,20,20">
+            <Label Text="What is Depression?" TextColor="Red" FontSize="20"/>
+            <Label Text="Depression is more than simply feeling unhappy or fed up for a few days. Most people go through periods of feeling down, but when you're depressed you feel persistently sad for weeks or months, rather than just a few days. Some people think depression is trivial and not a genuine health condition. They're wrong – it is a real illness with real symptoms. Depression is not a sign of weakness or something you can snap out of by pulling yourself together. The good news is that with the right treatment and support, most people with depression can make a full recovery."/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
